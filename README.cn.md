@@ -6,6 +6,11 @@
 
 这是一个使用 Frida 注入Chrome的工具，用于修改 NSWindow 的行为，使其在 macOS 系统上隐藏任何窗口内容。
 
+## Quickstart
+```bash
+pnpx github:eric-gitta-moore/mac-hidden-anything-NSWindow start "path/to/your/chrome"
+```
+
 ## 功能特点
 
 - 使用 Frida 框架进行注入
