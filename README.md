@@ -15,6 +15,8 @@ This is a tool that uses Frida to inject into Chrome and modify NSWindow behavio
 ## Installation
 
 ```bash
+pip install frida frida-tool
+
 pnpm install
 ```
 
@@ -30,6 +32,12 @@ pnpm start
 
 ```bash
 pnpm start "path/to/your/chrome"
+```
+
+e.g.
+
+```bash
+pnpm start '/Users/bytedance/workspace/chrome-mac/92.0.4506.0/Chromium.app/Contents/MacOS/Chromium'
 ```
 
 ## How it works
