@@ -2,6 +2,8 @@
 
 [English](./README.md) | 简体中文
 
+![1740917307696](https://github.com/user-attachments/assets/87d14952-ffc0-4924-8dc7-14e6bf541f54)
+
 ## 简介
 
 这是一个使用 Frida 注入Chrome的工具，用于修改 NSWindow 的行为，使其在 macOS 系统上隐藏任何窗口内容。
