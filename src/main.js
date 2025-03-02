@@ -11,9 +11,9 @@ spawn(
       `/Users/bytedance/workspace/chrome-mac/92.0.4506.0/Chromium.app/Contents/MacOS/Chromium`,
     "-l",
     path.join(__dirname, "frida-script.js"),
-    "--runtime",
-    "v8",
-    "--debug",
+    // "--runtime",
+    // "v8",
+    // "--debug",
   ],
   {
     stdio: "inherit",
