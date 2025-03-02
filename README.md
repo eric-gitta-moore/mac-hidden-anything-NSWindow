@@ -10,7 +10,7 @@ This is a tool that uses Frida to inject into Chrome and modify NSWindow behavio
 
 ## Quickstart
 ```bash
-pnpx github:eric-gitta-moore/mac-hidden-anything-NSWindow "path/to/your/chrome"
+pnpx github:eric-gitta-moore/mac-hidden-anything-NSWindow#main "path/to/your/chrome"
 ```
 
 ## Features
