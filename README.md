@@ -2,6 +2,8 @@
 
 English | [简体中文](./README.cn.md)
 
+![1740917307696](https://github.com/user-attachments/assets/87d14952-ffc0-4924-8dc7-14e6bf541f54)
+
 ## Introduction
 
 This is a tool that uses Frida to inject into Chrome and modify NSWindow behavior to hide any window content on macOS systems.
