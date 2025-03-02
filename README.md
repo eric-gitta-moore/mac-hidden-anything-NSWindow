@@ -40,6 +40,23 @@ e.g.
 pnpm start '/Users/bytedance/workspace/chrome-mac/92.0.4506.0/Chromium.app/Contents/MacOS/Chromium'
 ```
 
+3. Inject success
+```diff
+Spawning `/Applications/Google Chrome Dev.app/Contents/MacOS/Google Chrome Dev`...
+Chrome Inspector server listening on port 9229
+
+Spawned `/Applications/Google Chrome Dev.app/Contents/MacOS/Google Chrome Dev`. Resuming main thread!
+[Local::Google Chrome Dev ]-> [*] hello frida
+[+] intercepted [- initWithContentRect:styleMask:backing:defer:] methods
+[+] intercepted [- initWithContentRect:styleMask:backing:defer:screen:] methods
+[+] NSWindow initWithContentRect has called, instance self address: 0x104016157c0
+[+] NSWindow initWithContentRect has returned
++ [+] setSharingType_ to 0 successfully
+[+] NSWindow initWithContentRect has called, instance self address: 0x10401ea6c00
+[+] NSWindow initWithContentRect has returned
++ [+] setSharingType_ to 0 successfully
+```
+
 ## How it works
 
 This tool injects into the target Chrome process using Frida, intercepts NSWindow initialization methods, and sets the window sharing type to 0, thereby hiding the window content.
