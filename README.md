@@ -12,6 +12,12 @@ This is a tool that uses Frida to inject into Chrome and modify NSWindow behavio
 - Intercepts NSWindow initialization methods
 - Modifies window sharing type to achieve content hiding
 
+## Precondition
+- Close the sip
+- Change boot-args `sudo nvram boot-args="-arm64e_preview_abi thid_should_crash=0 tss_should_crash=0"`
+- `sudo spctl --master-disable`
+- `sudo spctl --global-disable`
+
 ## Installation
 
 ```bash

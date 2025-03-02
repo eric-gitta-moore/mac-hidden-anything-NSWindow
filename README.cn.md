@@ -12,6 +12,12 @@
 - 拦截NSWindow的初始化方法
 - 修改窗口的共享类型，实现内容隐藏
 
+## 前提条件
+- 关闭 sip
+- 修改 boot-args `sudo nvram boot-args="-arm64e_preview_abi thid_should_crash=0 tss_should_crash=0"`
+- `sudo spctl --master-disable`
+- `sudo spctl --global-disable`
+
 ## 安装
 
 ```bash
