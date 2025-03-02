@@ -65,7 +65,7 @@ Spawned `/Applications/Google Chrome Dev.app/Contents/MacOS/Google Chrome Dev`. 
 
 ## How it works
 
-This tool injects into the target Chrome process using Frida, intercepts NSWindow initialization methods, and sets the window sharing type to 0, thereby hiding the window content.
+This tool injects into the target Chrome process using Frida, intercepts `NSWindow` initialization methods, and sets the window sharing type to `NSWindowSharingNone`, thereby hiding the window content.
 
 ## License
 

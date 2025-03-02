@@ -4,12 +4,12 @@
 
 ## 简介
 
-这是一个使用Frida注入Chrome的工具，用于修改NSWindow的行为，使其在macOS系统上隐藏任何窗口内容。
+这是一个使用 Frida 注入Chrome的工具，用于修改 NSWindow 的行为，使其在 macOS 系统上隐藏任何窗口内容。
 
 ## 功能特点
 
-- 使用Frida框架进行注入
-- 拦截NSWindow的初始化方法
+- 使用 Frida 框架进行注入
+- 拦截 NSWindow 的初始化方法
 - 修改窗口的共享类型，实现内容隐藏
 
 ## 前提条件
@@ -34,7 +34,7 @@ pnpm install
 pnpm start
 ```
 
-2. 如果要指定Chrome路径，可以作为参数传入：
+2. 如果要指定 Chrome 路径，可以作为参数传入：
 
 ```bash
 pnpm start "path/to/your/chrome"
@@ -65,7 +65,7 @@ Spawned `/Applications/Google Chrome Dev.app/Contents/MacOS/Google Chrome Dev`. 
 
 ## 工作原理
 
-该工具通过Frida注入目标Chrome进程，拦截NSWindow的初始化方法，并将窗口的共享类型设置为0，从而实现窗口内容的隐藏。
+该工具通过 Frida 注入目标 Chrome 进程，拦截 `NSWindow` 的初始化方法，并将 `NSWindowSharingType` 设置为 `NSWindowSharingNone` ，从而实现窗口内容的隐藏。
 
 ## 许可证
 
