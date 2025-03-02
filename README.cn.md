@@ -10,7 +10,7 @@
 
 ## Quickstart
 ```bash
-pnpx github:eric-gitta-moore/mac-hidden-anything-NSWindow start "path/to/your/chrome"
+pnpx github:eric-gitta-moore/mac-hidden-anything-NSWindow "path/to/your/chrome"
 ```
 
 ## 功能特点
