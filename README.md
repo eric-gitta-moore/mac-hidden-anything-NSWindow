@@ -8,6 +8,10 @@ English | [简体中文](./README.cn.md)
 
 This is a tool that uses Frida to inject into Chrome and modify NSWindow behavior to hide any window content on macOS systems.
 
+## ⚠️ Warning ⚠️
+- Before executing any command in this document, please understand what it does.
+- Pay particular attention to the four commands in the [Precondition](#Precondition) section.  It is essential that you understand them before executing them.
+
 ## Quickstart
 ```bash
 pnpx github:eric-gitta-moore/mac-hidden-anything-NSWindow#main "path/to/your/chrome"
