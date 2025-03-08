@@ -80,4 +80,4 @@ Spawned `/Applications/Google Chrome Dev.app/Contents/MacOS/Google Chrome Dev`. 
 
 ## 许可证
 
-本项目采用MIT许可证。详情请参见[LICENSE](./LICENSE)文件。
+本项目采用 WTFPL 许可证。详情请参见[LICENSE](./LICENSE)文件。
